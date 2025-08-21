@@ -1,0 +1,18 @@
+{
+  "name": "protgres-practice",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && node ./dist/app.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/pg": "^8.15.5",
+    "pg": "^8.16.3",
+    "typescript": "^5.9.2"
+  }
+}
